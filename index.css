@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    min-width: 100px;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.blockage{
+    float: left;
+    width: 30%;
+    height: 0;
+    /* 基于父元素宽度的百分比下内边距.此值不会如预期地那样工作于所有的浏览器中 */
+    padding-bottom: 30%;
+    margin-left: 3%;
+    margin-top: 3%;
+    background-color: burlywood;
+    border-radius: 30px;
+}
